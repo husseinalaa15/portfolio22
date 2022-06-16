@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.btnContact{
+  background-color: transparent;
+  padding: 10px 15px;
+  border:1px solid white;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.btnContact:hover{
+  background-color: #ffffff;
+  border:1px solid #18243a;
+  color: #18243a;
+}

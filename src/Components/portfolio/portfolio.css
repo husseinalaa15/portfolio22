@@ -1,0 +1,46 @@
+.portContainer{
+    /* height: 100vh; */
+    background: rgb(12,125,139);
+    background: radial-gradient(circle, rgb(62 83 146) 0%, rgba(24,36,58,1) 100%);
+    color: white;
+}
+.portCard{
+    background-color: #27396b;
+    height: 300px;
+    background-size: 100% 100%;
+    border: none;
+}
+.postCardbackground{
+    background:linear-gradient(rgba(0,0,0,.34),#000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.postCardbackground h5{
+    border-bottom: 1px solid white;
+    padding-bottom:15px ;
+    font-size: 30px;
+}
+.btnVisit{
+    width: 50%;
+    opacity: 0;
+    background-color: transparent;
+    padding: 10px 15px;
+    border:1px solid white;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition:all 0.3s ease-in;
+    position: absolute;
+}
+
+  .btnVisit:hover{
+    background-color: #ffffff;
+    border:1px solid #18243a;
+    color: #18243a;
+  }
+  .postCardbackground:hover .btnVisit{
+    opacity: 1;
+    position: static;
+  }

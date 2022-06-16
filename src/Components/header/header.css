@@ -1,0 +1,18 @@
+.headerContainer{
+    height: 100vh;
+    background-size: 100% 100%;
+    /* background: rgb(81,164,217);
+    background: radial-gradient(circle, rgba(81,164,217,1) 0%, rgba(36,57,113,1) 100%); */
+}
+/* .imgHeader img{
+    width: 50%;
+} */
+@media (max-width:750px) {
+    .headerContainer{
+        background-size: cover;
+    }
+    .info{
+        background: #00000047;
+        padding: 50px;
+    }
+}

@@ -1,0 +1,63 @@
+.skillbar .skilldesc{
+    display: flex;
+    justify-content: space-between;
+}
+.skillContainer{
+    background: rgb(36,57,113);
+background: radial-gradient(circle, rgba(36,57,113,1) 0%, #18243a 100%);
+/* height: 100vh; */
+color: white;
+}
+.myfocus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.myfocus h4{
+    /* margin-bottom: 30px; */
+    border-bottom: 3px solid white ;
+    font-size: 30px;
+    width: fit-content;
+    /* margin:30px auto; */
+    padding: 10px 0;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.myfocus ul{
+    list-style:decimal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    text-align: center;
+    padding: 0 ;
+}
+.myfocus ul li {
+    text-align: center;
+    font-size: 18px;
+}
+
+.skilldesc{
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.icontitle{
+    display: flex;
+    align-items: center;
+}
+.icontitle img{
+    width: 35px;
+}
+.skillbar{
+    margin-bottom: 20px;
+}
+.progress{
+    background-color: #19243c;
+    border: 1px solid #18243c;
+}
+.progress-bar{
+    background-color: #223669 ;
+    border:none;
+}

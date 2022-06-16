@@ -1,0 +1,21 @@
+.footercontainer{
+    background-color: #18243a;
+    padding: 50px;
+    color: white;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+.icons li{
+    margin:0 5px
+    
+}
+.icons li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.icons li a:hover{
+    color: #5373ae;
+}
